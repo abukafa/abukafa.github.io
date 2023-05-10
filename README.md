@@ -1,4 +1,4 @@
-MY PORTFOLIO
+# My Portfolio
 
 This is my Portfolio on Github Page
 Made with static HTML CSS & JS
