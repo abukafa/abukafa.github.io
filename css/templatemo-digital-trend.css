@@ -31,12 +31,19 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   :root {
-    --primary-color:        #057a8d;
+    --primary-color:        #696ee2;
+    --secondary-color:      #ffa87b;
+    --white-color:          #ffffff;
+    --dark-color:           #5c3e84;
+    --project-bg:           #e8e8f8;
+    --menu-bg:              #696ee2;
+
+ /* --primary-color:        #057a8d;
     --secondary-color:      #f1c111;
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --project-bg:           #f0f8ff;
-    --menu-bg:              #057a8d;
+    --menu-bg:              #057a8d; */
 
     --title-color:          #15141a;
     --gray-color:           #909090;
@@ -572,7 +579,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .site-footer a {
-    color: var(--p-color);
+    color: var(--project-bg);
   }
 
   .site-footer a:hover,
