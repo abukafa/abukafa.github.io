@@ -8,7 +8,8 @@ https://templatemo.com/tm-538-digital-trend
 
 @font-face {
   font-family: "Plain-Regular";
-  src: url("../fonts/Plain-Regular.woff2") format("woff2"),
+  src:
+    url("../fonts/Plain-Regular.woff2") format("woff2"),
     url("../fonts/Plain-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -16,7 +17,8 @@ https://templatemo.com/tm-538-digital-trend
 
 @font-face {
   font-family: "Plain-Light";
-  src: url("../fonts/Plain-Light.woff2") format("woff2"),
+  src:
+    url("../fonts/Plain-Light.woff2") format("woff2"),
     url("../fonts/Plain-Light.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -24,7 +26,8 @@ https://templatemo.com/tm-538-digital-trend
 
 @font-face {
   font-family: "Plain-Bold";
-  src: url("../fonts/Plain-Bold.woff2") format("woff2"),
+  src:
+    url("../fonts/Plain-Bold.woff2") format("woff2"),
     url("../fonts/Plain-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -102,7 +105,8 @@ h4 {
   text-transform: uppercase;
 }
 
-p {
+p,
+ul {
   color: var(--p-color);
   font-size: var(--p-font-size);
   line-height: 1.5em;
@@ -162,8 +166,7 @@ blockquote {
 
 .custom-btn:hover,
 .custom-btn:focus {
-  background: var(--dark-color);
-  color: var(--white-color);
+  background: var(--secondary-color);
   border-color: transparent;
 }
 
@@ -290,9 +293,15 @@ a:focus {
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before,
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
-  transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease,
+  transition:
+    top 300ms 50ms ease,
+    -webkit-transform 300ms 350ms ease;
+  transition:
+    top 300ms 50ms ease,
+    transform 300ms 350ms ease;
+  transition:
+    top 300ms 50ms ease,
+    transform 300ms 350ms ease,
     -webkit-transform 300ms 350ms ease;
   top: 0;
 }
@@ -316,9 +325,15 @@ a:focus {
 
 .navbar-toggler .navbar-toggler-icon::before,
 .navbar-toggler .navbar-toggler-icon::after {
-  transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease,
+  transition:
+    top 300ms 350ms ease,
+    -webkit-transform 300ms 50ms ease;
+  transition:
+    top 300ms 350ms ease,
+    transform 300ms 50ms ease;
+  transition:
+    top 300ms 350ms ease,
+    transform 300ms 50ms ease,
     -webkit-transform 300ms 50ms ease;
   position: absolute;
   right: 0;
@@ -390,12 +405,16 @@ a:focus {
 
 .project-info p {
   /* color: var(--gray-color); */
-  font-family: Plain-Bold;
   position: relative;
   top: 2px;
 }
 
-.project-info a {
+.project-info p a {
+  font-family: Plain-Bold;
+}
+
+.project-info a,
+h3 {
   color: var(--primary-color);
 }
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <link rel="shortcut icon" href="images/sm.png" />
@@ -81,23 +81,21 @@
               <h1 class="text-white" data-aos="fade-up">
                 <strong>Abdul Aziz</strong>
               </h1>
-              <h1 class="text-white" data-aos="fade-up">
-                Full Stack Developer
-              </h1>
+              <h2 class="text-white" data-aos="fade-up">
+                Full-stack Developer
+              </h2>
+              <p class="text-white" data-aos="fade-up">
+                I build scalable web applications with a focus on performance,
+                clean architecture, and real business impact. I had 3+ years
+                experience delivering production-ready web solutions.
+              </p>
 
               <a
                 href="https://api.whatsapp.com/send?phone=+6289655176270"
                 class="custom-btn btn-bg btn mt-3"
                 data-aos="fade-up"
                 data-aos-delay="100"
-                >Let us discuss together!</a
-              >
-
-              <strong
-                class="d-block py-3 pl-5 text-white"
-                data-aos="fade-up"
-                data-aos-delay="200"
-                ><i class="fa fa-phone mr-2"></i> +62 896 5517 6270</strong
+                ><i class="fa fa-phone mr-2"></i> +62 896 5517 6270</a
               >
             </div>
           </div>
@@ -117,18 +115,24 @@
         <div class="row">
           <div class="col-lg-7 mx-auto col-md-10 col-12">
             <div class="about-info">
+              <h3 data-aos="fade-up">Hello, I’m a Full-stack Developer</h3>
               <h2 class="mb-4" data-aos="fade-up">
-                Hello, I am a Programmer <strong>Open to Work</strong>
+                <strong>Open to Work</strong>
               </h2>
 
-              <p class="mb-0" data-aos="fade-up">
-                I am 35 years old, a Creative Developer with 3+ years
-                experiences in Laravel and MERN. Love to work in Hybrid or
-                Remote. <br /><br />I was a Founder of
-                <strong>Semangkamedia</strong> a Full Stuck Developer at
-                Tasikmalaya Indonesia. Eager to join Company project to build
-                innovative cutting-edge business solutions.
+              <p data-aos="fade-up">
+                With hands-on experience building web applications from frontend
+                to backend. I focus on writing clean, maintainable code and
+                solving real problems, not just shipping features. Comfortable
+                working independently or with teams, and adapting fast to new
+                systems.
               </p>
+              <ul class="mt-3 mb-0" data-aos="fade-up">
+                <li>Frontend: <strong>React, HTML, CSS, JavaScript</strong></li>
+                <li>Backend: <strong>PHP / Node.js</strong></li>
+                <li>Database: <strong>MySQL / MongoDB</strong></li>
+                <li>Tools: <strong>Git, REST API, Linux</strong></li>
+              </ul>
             </div>
 
             <div class="about-image" data-aos="fade-up" data-aos-delay="200">
@@ -185,9 +189,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
-            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">
-              We make Interactive <strong>Web Application</strong>
+            <h1 class="text-white mb-3" data-aos="fade-up" data-aos-delay="100">
+              <strong>Abdul Aziz</strong>
             </h1>
+            <p class="my-0" data-aos="fade-up" data-aos-delay="100">
+              Open for Full-stack Developer opportunities
+            </p>
+            <p class="my-0" data-aos="fade-up" data-aos-delay="100">
+              Available for relocation and employer sponsorship.
+            </p>
           </div>
 
           <div
@@ -219,7 +229,7 @@
 
             <p class="mb-1">
               <i class="fa fa-home mr-2 footer-icon"></i>
-              Komplek Villa Latansa Rajapolah Tasikmalaya Indonesia
+              Komplek Villa Latansa Tasikmalaya Indonesia
             </p>
           </div>
         </div>
@@ -229,7 +239,7 @@
             <ul class="social-icon text-center">
               <li>
                 <a
-                  href="https://www.instagram.com/abukafa/"
+                  href="https://www.instagram.com/abukafa.assist/"
                   class="fa fa-instagram"
                 ></a>
               </li>
@@ -261,28 +271,39 @@
     <script>
       const projects = [
         {
-          img: "images/project/01.png",
-          url: "https://jazflix-alpha.vercel.app/",
-          tech: "React Next.js, MongoDB API, Deploy with Vercel",
-          title: "Streaming Platform",
-        },
-        {
           img: "images/project/02.png",
           url: "https://jazacademy.id/",
-          tech: "Laravel PHP, MySQL API, Vue.js, Vuetify UI",
+          tech: "Laravel (PHP), MySQL, Vue.js, Vuetify",
+          desc: "Built a learning platform to manage learning content with a scalable backend and modern frontend UI.",
           title: "Learning Platform",
+        },
+        {
+          img: "images/project/05.png",
+          url: "https://mbpt.jazacademy.id/",
+          tech: "React, Next.js, MongoDB, API, Vercel",
+          desc: "Developed an online personality assessment system with dynamic questionnaires and result processing.",
+          title: "Personality Test",
+        },
+        {
+          img: "images/project/01.png",
+          url: "https://jazflix-alpha.vercel.app/",
+          tech: "React, Next.js, MongoDB, API, Vercel",
+          desc: "Created an educational streaming platform focused on content delivery and performance optimization.",
+          title: "Streaming Platform",
         },
         {
           img: "images/project/03.png",
           url: "https://github.com/abukafa/flutter-emoney",
-          tech: "Flutter Dart, Firebase API, Midtrans payment gateway",
-          title: "E-money app",
+          tech: "Flutter, Dart, Firebase, Midtrans",
+          desc: "Built a digital wallet application with secure transactions using a third-party payment gateway.",
+          title: "E-money Application",
         },
         {
           img: "images/project/04.png",
           url: "https://hrd.binagemilang.com/",
-          tech: "Laravel PHP, MySQL API, React.js, Github Integration",
-          title: "Finances",
+          tech: "Laravel (PHP), MySQL, API, React.js",
+          desc: "Developed a finance management system to track transactions, and streamline financial reporting.",
+          title: "Finance Management",
         },
       ];
 
@@ -294,13 +315,14 @@
               <img src="${p.img}" class="img-fluid"/>
               <div class="project-info">
                 <a target="_blank" href="${p.url}">
-                  <p class="my-0">${p.tech}</p>
                   <h3>${p.title}</h3>
+                  <p class="my-0"><a>${p.tech}</a></p>
+                  <p class="my-0 d-md-block d-none">${p.desc}</p> 
                   <i class="fa fa-angle-right project-icon d-lg-block d-none"></i>
                 </a>
               </div>
             </div>
-          `
+          `,
         )
         .join("");
 
@@ -356,7 +378,7 @@
               </div>
             </div>
             <hr/>
-          `
+          `,
         )
         .join("");
 
