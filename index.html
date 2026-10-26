@@ -461,27 +461,47 @@
       ];
 
       // Pillar 2: Digital Marketing, Operations & Growth Strategy
+      // const growthProjects = [
+      //   {
+      //     img: "images/project/growth-01.jpg",
+      //     url: "https://www.instagram.com/abukafa.va/",
+      //     tech: "Brand positioning, lead funnels, organic audience growth",
+      //     desc: "Executed structured content strategies that increased brand reach, streamlined customer inquiry response times, and improved conversions through targeted positioning.",
+      //     title: "Omnichannel Social Media Management & Campaign Strategy",
+      //   },
+      //   {
+      //     img: "images/project/growth-02.jpg",
+      //     url: "https://semangkamedia.github.io/",
+      //     tech: "Automation, AI tools, CRM Integration",
+      //     desc: "Implemented an automated response and lead qualification workflow that routed customer inquiries directly into a database, reducing admin response latency by 70%.",
+      //     title: "Automated WhatsApp Lead Qualification & CRM Flow",
+      //   },
+      //   {
+      //     img: "images/project/growth-03.jpg",
+      //     url: "https://semangkamedia.github.io/",
+      //     tech: "Workflow digitization, inventory flow, task distribution",
+      //     desc: "Replaced paper-based logs and scattered spreadsheets with a simple web portal to track daily staff tasks, inventory flow, and operational efficiency.",
+      //     title: "Digital SOP & Internal Operations Portal",
+      //   },
+      // ];
       const growthProjects = [
         {
-          img: "images/project/growth-01.jpg",
-          url: "https://www.instagram.com/abukafa.va/",
-          tech: "Brand positioning, lead funnels, organic audience growth",
-          desc: "Executed structured content strategies that increased brand reach, streamlined customer inquiry response times, and improved conversions through targeted positioning.",
-          title: "Omnichannel Social Media Management & Campaign Strategy",
+          img: "images/project/1.png",
+          url: "https://www.instagram.com/jazacademy.id/",
+          tech: "Education, Science and Technology, Creators Academy",
+          title: "Jaz Academy",
         },
         {
-          img: "images/project/growth-02.jpg",
-          url: "https://semangkamedia.github.io/",
-          tech: "Automation, AI tools, CRM Integration",
-          desc: "Implemented an automated response and lead qualification workflow that routed customer inquiries directly into a database, reducing admin response latency by 70%.",
-          title: "Automated WhatsApp Lead Qualification & CRM Flow",
+          img: "images/project/2.png",
+          url: "https://instagram.com/ijaz.mp4",
+          tech: "Influencer, Content Creator, Education & Relationship",
+          title: "Hijaz Abdullah",
         },
         {
-          img: "images/project/growth-03.jpg",
-          url: "https://semangkamedia.github.io/",
-          tech: "Workflow digitization, inventory flow, task distribution",
-          desc: "Replaced paper-based logs and scattered spreadsheets with a simple web portal to track daily staff tasks, inventory flow, and operational efficiency.",
-          title: "Digital SOP & Internal Operations Portal",
+          img: "images/project/3.png",
+          url: "https://instagram.com/act.ciamis",
+          tech: "Non Government Organization, Social Service, Volunteer",
+          title: "Aksi Cepat Tanggap",
         },
       ];
 
@@ -489,11 +509,11 @@
         return `
           <div class="item project-wrapper">
             <img src="${p.img}" class="img-fluid" alt="${p.title}" />
-            <div class="project-info">
+            <div class="project-info"> 
               <a target="_blank" rel="noopener noreferrer" href="${p.url}">
                 <h3>${p.title}</h3>
                 <p class="my-0"><a>${p.tech}</a></p>
-                <p class="my-0 d-md-block d-none">${p.desc}</p> 
+                ${p.desc ? `<p class="my-0 d-md-block d-none">${p.desc}</p>` : ""}
                 <i class="fa fa-angle-right project-icon d-lg-block d-none"></i>
               </a>
             </div>
