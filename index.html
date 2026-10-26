@@ -156,12 +156,144 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 col-12">
-            <h2 class="mb-5 text-center" data-aos="fade-up">
-              Please take a look through my
-              <strong>Recent Projects</strong>
-            </h2>
+            <div class="text-center mb-5" data-aos="fade-up">
+              <h2>
+                Dual-Pillar Expertise & <strong>Recent Projects</strong>
+              </h2>
 
-            <div class="owl-carousel owl-theme" id="project-slide"></div>
+              <!-- Dual-Pillar Switch Tabs -->
+              <div class="d-flex justify-content-center mt-4">
+                <ul class="nav nav-pills custom-pillar-tabs" id="projectPillarTabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link pillar-tab-btn active" id="tab-engineering-btn" data-toggle="pill" href="#tab-engineering" role="tab" aria-controls="tab-engineering" aria-selected="true">
+                      <span class="tab-title">
+                        <i class="fa fa-code mr-1 mr-sm-2"></i>
+                        <span class="d-none d-sm-inline">Full-Stack Engineering</span>
+                        <span class="d-inline d-sm-none">Full-Stack</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pillar-tab-btn" id="tab-growth-btn" data-toggle="pill" href="#tab-growth" role="tab" aria-controls="tab-growth" aria-selected="false">
+                      <span class="tab-title">
+                        <i class="fa fa-line-chart mr-1 mr-sm-2"></i>
+                        <span class="d-none d-sm-inline">Social Media Management</span>
+                        <span class="d-inline d-sm-none">Social Media</span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Tab Content Panes -->
+            <div class="tab-content" id="projectPillarTabsContent">
+              <!-- Pillar 1: Full-Stack Engineering -->
+              <div class="tab-pane fade show active" id="tab-engineering" role="tabpanel" aria-labelledby="tab-engineering-btn">
+                <div class="container mb-5">
+                  <div class="row justify-content-center text-center mb-4">
+                    <div class="col-lg-10 col-12">
+                      <p class="pillar-tagline" data-aos="fade-up">
+                        Building custom, scalable, and production-ready digital tools to power business logic.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row justify-content-center capability-row">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4" data-aos="fade-up" data-aos-delay="100">
+                      <div class="capability-card">
+                        <div class="capability-icon">
+                          <i class="fa fa-desktop"></i>
+                        </div>
+                        <h5>Frontend Development</h5>
+                        <p>Interactive UIs, responsive web design, performance optimization, client-side rendering.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4" data-aos="fade-up" data-aos-delay="200">
+                      <div class="capability-card">
+                        <div class="capability-icon">
+                          <i class="fa fa-server"></i>
+                        </div>
+                        <h5>Backend Architecture</h5>
+                        <p>RESTful APIs, clean code architecture, database optimization, secure payment gateway integrations.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4" data-aos="fade-up" data-aos-delay="300">
+                      <div class="capability-card">
+                        <div class="capability-icon">
+                          <i class="fa fa-cloud"></i>
+                        </div>
+                        <h5>Infrastructure & Deployment</h5>
+                        <p>Version control (Git), containerization (Docker), Linux environment management, cloud hosting setup.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center mb-4">
+                  <h4 class="projects-subheading">
+                    Featured <strong>Engineering Projects</strong>
+                  </h4>
+                </div>
+
+                <div class="owl-carousel owl-theme" id="project-slide-engineering"></div>
+              </div>
+
+              <!-- Pillar 2: Growth & Operations -->
+              <div class="tab-pane fade" id="tab-growth" role="tabpanel" aria-labelledby="tab-growth-btn">
+                <div class="container mb-5">
+                  <div class="row justify-content-center text-center mb-4">
+                    <div class="col-lg-10 col-12">
+                      <p class="pillar-tagline">
+                        Strategic content and Social media management, Profile optimization, Brand positioning. 
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row justify-content-center capability-row">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                      <div class="capability-card">
+                        <div class="capability-icon">
+                          <i class="fa fa-share-alt"></i>
+                        </div>
+                        <h5>Social Media Management</h5>
+                        <p>End-to-end content positioning, editorial calendars, digital campaigns, community building, and audience acquisition.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                      <div class="capability-card">
+                        <div class="capability-icon">
+                          <i class="fa fa-cogs"></i>
+                        </div>
+                        <h5>Workflow AI Automation</h5>
+                        <p>Connecting APIs, setting up automated messaging (WhatsApp/Email), lead capture systems, and reducing repetitive tasks.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                      <div class="capability-card">
+                        <div class="capability-icon">
+                          <i class="fa fa-bar-chart"></i>
+                        </div>
+                        <h5>Business Intelligence & Operations</h5>
+                        <p>Consolidating disparate data into actionable dashboards (sales, leads, operational performance).</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center mb-4">
+                  <h4 class="projects-subheading">
+                    Featured <strong>Social Media Projects</strong>
+                  </h4>
+                </div>
+
+                <div class="owl-carousel owl-theme" id="project-slide-growth"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -289,62 +421,95 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
     <script>
-      const projects = [
-        {
-          img: "images/project/02.png",
-          url: "https://jazacademy.id/",
-          tech: "Laravel (PHP), MySQL, Vue.js, Vuetify",
-          desc: "Built a learning platform to manage learning content with a scalable backend and modern frontend UI.",
-          title: "Learning Platform",
-        },
-        {
-          img: "images/project/05.png",
-          url: "https://mbpt.jazacademy.id/",
-          tech: "React, Typescript, NestJs, PostgreSQL",
-          desc: "Developed an online personality assessment system with dynamic questionnaires and result processing.",
-          title: "Personality Test",
-        },
+      // Pillar 1: Full-Stack Engineering & System Architecture
+      const engineeringProjects = [
         {
           img: "images/project/01.png",
-          url: "https://jazflix-alpha.vercel.app/",
-          tech: "React, Next.js, MongoDB, API, Vercel",
-          desc: "Created an educational streaming platform focused on content delivery and performance optimization.",
-          title: "Streaming Platform",
+          url: "https://github.com/abukafa/next-jazflix",
+          tech: "React, Next.js, MongoDB, REST API, Vercel",
+          desc: "Designed and deployed a high-performance content delivery platform focused on stream stability and user engagement.",
+          title: "Streaming & Educational Platform",
         },
         {
           img: "images/project/03.png",
           url: "https://github.com/abukafa/flutter-emoney",
-          tech: "Flutter, Dart, Firebase, Midtrans",
-          desc: "Built a digital wallet application with secure transactions using a third-party payment gateway.",
-          title: "E-money Application",
+          tech: "Flutter, Dart, Firebase, Midtrans Payment Gateway",
+          desc: "Built a secure mobile wallet handling real-time financial transactions, balance tracking, and third-party payment processing.",
+          title: "E-Money & Digital Wallet Application",
         },
         {
           img: "images/project/04.png",
-          url: "https://hrd.binagemilang.com/",
-          tech: "Laravel (PHP), MySQL, API, React.js",
-          desc: "Developed a finance management system to track transactions, and streamline financial reporting.",
-          title: "Finance Management",
+          url: "https://github.com/abukafa/codeigniter-hrd",
+          tech: "Laravel (PHP), MySQL, React.js, REST API",
+          desc: "Developed a centralized financial tracking system to streamline reporting, monitor transaction logs, and minimize manual ledger errors.",
+          title: "Enterprise Finance Management System",
+        },
+        {
+          img: "images/project/02.png",
+          url: "https://jazacademy.id/",
+          tech: "Laravel (PHP), PostgreSQL, Vue.js, Vuetify",
+          desc: "Engineered a scalable LMS platform allowing instructors to manage course materials, track student progress, and organize assessment workflows.",
+          title: "Learning Management System (LMS)",
+        },
+        {
+          img: "images/project/05.png",
+          url: "https://github.com/abukafa/mbpt-backend",
+          tech: "React, TypeScript, NestJS, PostgreSQL",
+          desc: "Built an automated personality testing tool featuring dynamic questionnaires, score processing algorithms, and instant analytical reports.",
+          title: "Dynamic Personality Assessment System",
         },
       ];
 
-      const projectSlide = document.getElementById("project-slide");
-      projectSlide.innerHTML = projects
-        .map(
-          (p) => `
-            <div class="item project-wrapper" data-aos="fade-up" data-aos-delay="100">
-              <img src="${p.img}" class="img-fluid"/>
-              <div class="project-info">
-                <a target="_blank" href="${p.url}">
-                  <h3>${p.title}</h3>
-                  <p class="my-0"><a>${p.tech}</a></p>
-                  <p class="my-0 d-md-block d-none">${p.desc}</p> 
-                  <i class="fa fa-angle-right project-icon d-lg-block d-none"></i>
-                </a>
-              </div>
+      // Pillar 2: Digital Marketing, Operations & Growth Strategy
+      const growthProjects = [
+        {
+          img: "images/project/growth-01.jpg",
+          url: "https://www.instagram.com/abukafa.va/",
+          tech: "Brand positioning, lead funnels, organic audience growth",
+          desc: "Executed structured content strategies that increased brand reach, streamlined customer inquiry response times, and improved conversions through targeted positioning.",
+          title: "Omnichannel Social Media Management & Campaign Strategy",
+        },
+        {
+          img: "images/project/growth-02.jpg",
+          url: "https://semangkamedia.github.io/",
+          tech: "Automation, AI tools, CRM Integration",
+          desc: "Implemented an automated response and lead qualification workflow that routed customer inquiries directly into a database, reducing admin response latency by 70%.",
+          title: "Automated WhatsApp Lead Qualification & CRM Flow",
+        },
+        {
+          img: "images/project/growth-03.jpg",
+          url: "https://semangkamedia.github.io/",
+          tech: "Workflow digitization, inventory flow, task distribution",
+          desc: "Replaced paper-based logs and scattered spreadsheets with a simple web portal to track daily staff tasks, inventory flow, and operational efficiency.",
+          title: "Digital SOP & Internal Operations Portal",
+        },
+      ];
+
+      function renderProjectItem(p) {
+        return `
+          <div class="item project-wrapper">
+            <img src="${p.img}" class="img-fluid" alt="${p.title}" />
+            <div class="project-info">
+              <a target="_blank" rel="noopener noreferrer" href="${p.url}">
+                <h3>${p.title}</h3>
+                <p class="my-0"><a>${p.tech}</a></p>
+                <p class="my-0 d-md-block d-none">${p.desc}</p> 
+                <i class="fa fa-angle-right project-icon d-lg-block d-none"></i>
+              </a>
             </div>
-          `,
-        )
-        .join("");
+          </div>
+        `;
+      }
+
+      const engSlide = document.getElementById("project-slide-engineering");
+      if (engSlide) {
+        engSlide.innerHTML = engineeringProjects.map(renderProjectItem).join("");
+      }
+
+      const growthSlide = document.getElementById("project-slide-growth");
+      if (growthSlide) {
+        growthSlide.innerHTML = growthProjects.map(renderProjectItem).join("");
+      }
 
       const educations = [
         {
